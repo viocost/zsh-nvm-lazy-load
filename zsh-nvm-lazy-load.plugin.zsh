@@ -5,7 +5,7 @@
 # posing no start up time penalty for the shells that aren't going to use them at all.
 # There is only single time penalty for one shell.
 
-typeset -ga __lazyLoadLabels=(nvm node npm npx pnpm yarn pnpx bun bunx)
+typeset -ga __lazyLoadLabels=(nvm node npm npx pnpm yarn pnpx bun bunx typescript-language-server)
 
 __load-nvm() {
     export NVM_DIR="${NVM_DIR:-$HOME/.nvm}"
